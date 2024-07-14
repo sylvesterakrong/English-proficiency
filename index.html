@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Proficiency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-details">
+        <h2>Note</h2>
+            <p>
+                By submitting this form, I hearby attest that this information is true, 
+                accuraate and complete to the best of my knowledge and I understand
+                that any falsification, omission or concealment of material fact may subject me to administrative,
+                civil or criminal liability.
+            </p>
+    </div>
+    <div class="form-content"> 
+        <form action="" method="post" class="eng-prof-form">
+            <div class="form-header">
+                <center>            
+                    <img src="knust.png" alt="knust-logo">
+                </center>
+                <h3>English Profeiciency Application Form</h3>
+
+                <div id="responseMessage" style="display: none;"></div>
+            </div>
+            <div class="form-body">
+                <div class="row">
+                    <div class="input-group">
+                        <label>Full name as it appears on your certificate</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                </div>
+    
+                <div class="row">
+
+                    <div class="input-group">
+                        <label for="">Title</label>
+                        <select name="title" id="title">
+                            <option value="Mr.">Mr.</option>
+                            <option value="Mrs.">Mrs.</option>
+                            <option value="Miss.">Miss.</option>
+                            <option value="Ms.">Ms.</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Programme read</label>
+                        <select id="program"></select>
+                    </div>
+    
+                    
+                </div>
+    
+                <div class="row">
+
+                    <div class="input-group">
+                        <label>College</label>
+                        <select name="college" id="college">
+                            <option value="">--Select College--</option>
+                            <option value="College of Agriculture and Natural Resources">College of Agriculture and Natural Resources</option>
+                            <option value="College of Art and Built Environment">College of Art and Built Environment</option>
+                            <option value="College of Humanities and Social Sciences">College of Humanities and Social Sciences</option>
+                            <option value="College of Engineering">College of Engineering</option>
+                            <option value="College of Health Sciences">College of Health Sciences</option>
+                            <option value="College of Science">College of Science</option>
+                            <option value="Institute of Distance Learning">Institute of Distance Learning</option>
+                            <option value="Test College">Test College</option>
+    
+                        </select>
+                    </div>
+    
+                    <div class="input-group">
+                        <label>Year of completion</label>
+                        <select name="year" id="year">
+                            <option value="">--Select Year--</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <div class="input-group">
+                            <label for="">Class attained</label>
+                            <select name="class" id="class">
+                                <option value="">--Select Class--</option>
+                                <option value="FIRST CLASS">FIRST CLASS</option>
+                                <option value="SECOND CLASS, UPPER DIVISION">SECOND CLASS, UPPER DIVISION</option>
+                                <option value="SECOND CLASS, LOWER DIVISION">SECOND CLASS, LOWER DIVISION</option>
+                                <option value="PASS">PASS</option>
+                                <option value="DISTINCTION">DISTINCTION</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <center> <hr></center>
+           
+
+                <p>
+                    By submitting this form, I hearby attest that this information is true, 
+                    accuraate and complete to the best of my knowledge and I understand
+                    that any falsification, omission or concealment of material fact may subject me to administrative,
+                    civil or criminal liability
+                </p>
+
+                <input id="submit" type="submit" value="submit">
+    </form>
+</div>
+<script src="programs.js"></script>
+<script src="year.js"></script>
+</body>
+</html>
